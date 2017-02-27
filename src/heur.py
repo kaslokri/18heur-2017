@@ -62,6 +62,7 @@ class ShootAndGo(Heuristic):
                     go = True
                 if h == self.hmax:
                     go = False
+                    break
 
     def search(self):
         try:
